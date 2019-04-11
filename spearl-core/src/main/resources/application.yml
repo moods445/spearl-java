@@ -1,0 +1,18 @@
+spring.application.name: core
+server.port: 10001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/
+
+# database
+spring.datasource:
+  username: spearl
+  password: spearl
+  url: jdbc:mysql://127.0.0.1/spearl?useUnicode=true&characterEncoding=utf-8&useSSL=false
+  driverClassName: com.mysql.jdbc.Driver
+
+feign:
+  hystrix:
+    enabled: true
