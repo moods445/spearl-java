@@ -6,20 +6,11 @@
         <artifactId>spearl</artifactId>
         <groupId>com.modds</groupId>
         <version>1.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spearl-core</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>spearl-core-service</module>
-    </modules>
+    <artifactId>spearl-user-api</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
+
 </project>
