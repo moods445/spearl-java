@@ -15,6 +15,7 @@
         web服务入口
     </description>
     <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>

@@ -14,4 +14,7 @@
         <module>spearl-user-api</module>
         <module>spearl-user-service</module>
     </modules>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
 </project>

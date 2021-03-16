@@ -12,7 +12,7 @@ public class UserController {
     @DubboReference
     private UserApi userApi;
 
-    @GetMapping
+    @GetMapping("/name")
     private String getUserName() {
         return userApi.getUserName(1);
     }
